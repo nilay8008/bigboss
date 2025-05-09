@@ -1,6 +1,6 @@
 import acmeLogo from "../assets/images/kc.png";
 import quantumLogo from "../assets/images/sc11.png";
-import echoLogo from "../assets/images/bd1.png";
+import echoLogo from "../assets/images/bd111.png";
 import celestialLogo from "../assets/images/sc33.png";
 import pulseLogo from "../assets/images/m22.png";
 import apexLogo from "../assets/images/sc44.png";

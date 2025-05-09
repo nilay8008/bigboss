@@ -22,13 +22,13 @@ export const Hero = () => {
       dragSnapToOrigin
 
       >
-      <Image src={CursorImage} alt="cursor" height={200} width={200} className='max-w-none' draggable="false"/>
+      <Image src={CursorImage} alt="cursor" height={400} width={400} className='max-w-none' draggable="false"/>
       </motion.div>
       <motion.div className='absolute left-[498px] top-[56px] hidden sm:inline'
       drag
       dragSnapToOrigin
       >
-      <Image src={MessageImage} alt="cursor"  height={200} width={200} className='max-w-none' draggable="false"/>
+      <Image src={MessageImage} alt="cursor"  height={400} width={400} className='max-w-none' draggable="false"/>
       </motion.div>
       </div>
       </div>
