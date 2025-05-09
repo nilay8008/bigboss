@@ -16,7 +16,7 @@ interface PricingTabProps {
 
 export function PricingTab(props: PricingTabProps) {
   return (
-    <div className={`h-full `}>
+    <div className={`h-full`}>
       <div className="relative flex flex-col h-full p-6 rounded-2xl bg-black border border-white/30 shadow shadow-black/80">
         {props.popular && (
           <div className="absolute top-0 right-0 mr-6 -mt-4">
@@ -26,7 +26,7 @@ export function PricingTab(props: PricingTabProps) {
         <div className="mb-5">
           <div className="text-white/70 font-semibold mb-1">{props.planName}</div>
           <div className="inline-flex items-baseline mb-2">
-            <span className="text-white/70 font-bold text-3xl">$</span>
+            <span className="text-white/70 font-bold text-3xl">₹</span>
             <span className="text-white/50 font-bold text-4xl">{props.yearly ? props.price.yearly : props.price.monthly}</span>
             <span className="text-white/70 font-medium">/mo</span>
           </div>
@@ -58,7 +58,6 @@ export default function PricingTable() {
 
   return (
     <div>
-
       {/* Pricing toggle */}
       <div className="flex justify-center max-w-[14rem] m-auto mb-8 lg:mb-16">
         <div className="relative flex w-full p-1 bg-black rounded-full">
@@ -71,52 +70,41 @@ export default function PricingTable() {
       </div>
 
       <div className="max-w-sm mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none">
-
-        {/* Pricing tab 1 */}
         <PricingTab
           yearly={isAnnual}
-          planName="Essential"
-          price={{ yearly: 29, monthly: 35 }}
-          planDescription="There are many variations available, but the majority have suffered."
+          planName="Basic"
+          price={{ yearly: 4999, monthly: 499 }}
+          planDescription="Perfect for occasional trims – up to 2 haircuts per month."
           features={[
-            'Unlimited placeholder texts',
-            'Consectetur adipiscing elit',
-            'Excepteur sint occaecat cupidatat',
-            'Officia deserunt mollit anim',
+            '2 Haircuts/Month',
+            'Basic styling included',
+            'Member-only discounts',
           ]} />
 
-        {/* Pricing tab 2 */}
         <PricingTab
           yearly={isAnnual}
           popular={true}
-          planName="Perform"
-          price={{ yearly: 49, monthly: 55 }}
-          planDescription="There are many variations available, but the majority have suffered."
+          planName="Standard"
+          price={{ yearly: 9999, monthly: 899 }}
+          planDescription="Our most popular plan – one haircut every week."
           features={[
-            'Unlimited placeholder texts',
-            'Consectetur adipiscing elit',
-            'Excepteur sint occaecat cupidatat',
-            'Officia deserunt mollit anim',
-            'Predefined chunks as necessary',
+            '4 Haircuts/Month',
+            'Basic styling & hair wash',
+            'Priority booking',
           ]} />
 
-        {/* Pricing tab 3 */}
         <PricingTab
           yearly={isAnnual}
-          planName="Enterprise"
-          price={{ yearly: 79, monthly: 85 }}
-          planDescription="There are many variations available, but the majority have suffered."
+          planName="Premium"
+          price={{ yearly: 14999, monthly: 1499 }}
+          planDescription="Unlimited grooming – one haircut per week, every month."
           features={[
-            'Unlimited placeholder texts',
-            'Consectetur adipiscing elit',
-            'Excepteur sint occaecat cupidatat',
-            'Officia deserunt mollit anim',
-            'Predefined chunks as necessary',
-            'Free from repetition',
+            'Unlimited Haircuts (1/week)',
+            'Hair spa add-on discounts',
+            'Free birthday grooming',
+            'Premium support',
           ]} />
-
       </div>
-
     </div>
   )
 }

@@ -1,9 +1,9 @@
-import acmeLogo from "../assets/images/acme.png";
-import quantumLogo from "../assets/images/quantum.png";
-import echoLogo from "../assets/images/echo.png";
-import celestialLogo from "../assets/images/celestial.png";
-import pulseLogo from "../assets/images/pulse.png";
-import apexLogo from "../assets/images/apex.png";
+import acmeLogo from "../assets/images/kc.png";
+import quantumLogo from "../assets/images/sc11.png";
+import echoLogo from "../assets/images/bd1.png";
+import celestialLogo from "../assets/images/sc33.png";
+import pulseLogo from "../assets/images/m22.png";
+import apexLogo from "../assets/images/sc44.png";
 import Image from 'next/image';
 import LogoCarousel from "./companylogos";
 
@@ -18,7 +18,7 @@ const images = [
 
 export const LogoTicker = () => {
   return(
-    <div className="bg-black text-white py-[72px] sm:py-24">
+    <div className="bg-black text-white py-[72px] sm:py-24" >
       <div className="container">
         <h2 className="text-lg text-center text-white/70 mb-16"><p>
   I’m Anil Bhatii, the face behind the flair,<br />

@@ -1,7 +1,7 @@
 "use client"
-import CursorImage from '../assets/images/cursor.png'
+import CursorImage from '../assets/images/t1.png'
 import ArrowIcon from '../assets/icons/arrow-w.svg'
-import MessageImage from '../assets/images/message.png'
+import MessageImage from '../assets/images/s11.png'
 import Image from 'next/image';
 import {motion} from 'framer-motion'
 import { AnimatedGradientTextDemo } from './animatedtext';
