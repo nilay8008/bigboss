@@ -16,7 +16,7 @@ export function Banner() {
           ✨
           <span className="font-bold">
             {" "}
-            ⭐ Leave a star in Github 
+            ⭐ Loved your look? Drop a review and shine some stars our way!
           </span>{" "}
           <ChevronRight className="ml-1 size-4 transition-all duration-300 ease-out group-hover:translate-x-1" />
         </Link>

@@ -24,7 +24,7 @@ export default function Home() {
       <ProductShowcase />
       <FAQs />
       <Pricing/>
-     
+      
       <CallToAction />
       </div>
       <Footer />
