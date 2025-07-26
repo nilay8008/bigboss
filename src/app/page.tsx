@@ -8,6 +8,7 @@ import { FAQs } from "@/components/FAQs";
 import { CallToAction } from "@/components/CallToAction";
 import { Footer } from "@/components/Footer";
 import { Pricing } from "@/components/Pricingdemo";
+import { Anie } from "@/components/anie";
 
 
 export default function Home() {
@@ -18,6 +19,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <LogoTicker />
+      <Anie/>
+      
       
       <Features />
       

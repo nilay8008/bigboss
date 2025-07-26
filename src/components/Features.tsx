@@ -1,4 +1,3 @@
-import Bentodemo from './bentogrid';
 
 export const Features = () => {
   return (
@@ -11,9 +10,12 @@ export const Features = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center sm:flex-row gap-4 mt-32">
-          <Bentodemo />
+        
         </div>
+        
       </div>
+      
     </section>
+    
   );
 };
